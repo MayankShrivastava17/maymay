@@ -1,0 +1,88 @@
+#title {
+    text-align: center;
+    color: darkgoldenrod;
+    font-family: 'Playfair Display', serif;
+}
+
+/* navigation bar logo  */
+#navbar-logo {
+    /* padding: 10px; */
+    margin-left: 10px;
+    /* margin-right: 400px; */
+    font-size: 35px;
+    color: #5e93c586;
+    text-decoration: underline;
+    /* font-family: 'Comfortaa', cursive; */
+    /* font-family:'WindSong',cursive; */
+    /* font-family: 'Abril Fatface', cursive; */
+    font-family: 'Londrina Solid', cursive;
+}
+
+/* when the screen size shrinks  */
+@media only screen and (max-width: 600px) {
+    navbar {
+        display: flex;
+    }
+}
+
+/* for centering element inside div  */
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+/* to center the image  */
+.cen {
+    display: flex;
+    justify-content: center;
+    margin: 45px 45px 45px 45px;
+}
+
+/* to adjust the image size  */
+len {
+    width: 2px;
+    height: 1px;
+}
+
+/* image styling  */
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+/* warning */
+.alert {
+    padding: 20px;
+    background-color: #ff0000c4;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+.bold {
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
+.nav{
+    text-align: center;
+}
